@@ -7,7 +7,7 @@ $msg = '';
 // Set timezone to America/Chicago
 date_default_timezone_set('America/Chicago');
 
-if(!=empty($_POST)) {
+if(!empty($_POST)) {
     // Post data not empty insert a new record
     // Set-up the variables that are going to be inserted, //we must check if the POST variables exist if not we //can default them to blank
     $medication_id = isset($_POST['medication_id']) && !empty($_POST['medication_id']) && $_POST['medication_id'] != 'auto' ? $_POST['medication_id'] : NULL;
