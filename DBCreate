@@ -114,3 +114,5 @@ INSERT INTO visits (patient_id, visit_date, doctor_seen, fev1_values) VALUES
     (1, '2025-04-24', 'Dr. Karen Lopez', '3.2L, 3.3L, 3.1L'),
     (2, '2025-04-23', 'Dr. David Miller', '3.5L, 3.4L, 3.6L'),
     (3, '2025-04-22', 'Dr. Sarah Green', '4.0L, 4.1L, 4.0L');
+
+CREATE USER IF NOT EXISTS "kermit"@"localhost" IDENTIFIED BY "sesame";
