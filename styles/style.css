@@ -1,1 +1,141 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    color: #333333;
+}
+.navtop {
+    background-color: #1d3557;
+    height: 60px;
+    width: 100%;
+}
+.navtop div {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+}
+.navtop div h1 {
+    flex: 1;
+    font-size: 22px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: normal;
+}
+.navtop div a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #a8dadc;
+    font-weight: bold;
+}
+.navtop div a:hover {
+    color: #ffffff;
+}
+.content {
+    width: 1000px;
+    margin: 20px auto;
+}
+.content h2 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #ced4da;
+    color: #555555;
+}
 
+/* Buttons */
+.button, .create-contact, .back, .yesno a {
+    background-color: #2a9d8f;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+}
+.button:hover, .create-contact:hover, .back:hover, .yesno a:hover {
+    background-color: #21867a;
+}
+
+/* Table */
+.read table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+.read table thead {
+    background-color: #e9ecef;
+}
+.read table thead td {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #495057;
+}
+.read table tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+.read table tbody tr:nth-child(even) {
+    background-color: #f1f3f5;
+}
+.read table tbody tr:hover {
+    background-color: #457b9d;
+}
+.read table tbody tr:hover td {
+    color: #ffffff;
+}
+.read table tbody td {
+    padding: 10px;
+}
+
+/* Action Buttons in table */
+.read table tbody td.actions {
+    text-align: right;
+}
+.read table tbody td.actions .edit {
+    background-color: #457b9d;
+}
+.read table tbody td.actions .edit:hover {
+    background-color: #35648d;
+}
+.read table tbody td.actions .trash {
+    background-color: #e63946;
+}
+.read table tbody td.actions .trash:hover {
+    background-color: #d62839;
+}
+
+/* Form styling */
+.update form {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.update form label {
+    width: 100%;
+    margin-bottom: 5px;
+    color: #495057;
+}
+.update form input, .update form select {
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.update form input[type="submit"] {
+    width: 200px;
+    background-color: #2a9d8f;
+}
+.update form input[type="submit"]:hover {
+    background-color: #21867a;
+}
