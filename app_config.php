@@ -6,6 +6,6 @@ define('APP_FOLDER_NAME', '/ACME_Medical');
 define('WEB_ROOT','http://'.$_SERVER['SERVER_NAME']);
 //DEBUG echo(WEB_ROOT);
 define('DSN1', 'mysql:host=localhost;dbname=ACMEMedical');
-define('USER1','');
-define('PASSWD1','');
+define('USER1','kermit');
+define('PASSWD1','sesame');
 ?>
